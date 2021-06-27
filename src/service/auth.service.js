@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8008/api/auth/";
+//const API_URL = "http://localhost:8008/api/auth/";
+const API_URL = 'https://flashcard-io-project.ew.r.appspot.com/api/auth/';
 
 class AuthService {
   login(username, password) {
