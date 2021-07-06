@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Flashcards App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Flashcards game app created with React.js. 
+You can try it using this url: [https://flashcards-react.herokuapp.com/register](https://flashcards-react.herokuapp.com/register) 
 
-## Available Scripts
+## Table of contents
+* [Description](#description)
+* [Technologies](#technologies)
+* [Setup](#setup)
 
-In the project directory, you can run:
+## Description
+Flashcards App is a web app which enables you to learn by playing 
+flashcards game. 
 
-### `yarn start`
+### Database
+Such data as sets of flashcards, users' information and their progress 
+are stored in H2 database and acquired through [REST API](https://github.com/JuliaPlaczkowska/Flashcards).
+Available sets of flashcards are developed 
+dynamically with respect of users’ needs by the app administrator. 
+Every user can email admin directly with a new set request.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Ranking
+The application also consists 
+of features that will encourage users to
+study more by implementing score and progress tracking system.
+The score is a measure of how quickly the user learns the set of flashcards. 
+After finishing learning, user can choose whether to add
+the score to the public ranking to compete with others.
 
-### `yarn test`
+## Technologies
+Project is created with:
+* React version: 17.0.2
+* Material-UI version: 4.11.1
+* Axios version: 0.12.1
+* Semantic UI version: 2.4.2
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Setup
+To run this project, clone it from GitHub and run as normal 
+React project.
